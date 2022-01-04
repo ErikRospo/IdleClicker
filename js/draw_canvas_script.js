@@ -1,6 +1,6 @@
 var canv = document.getElementById('DrawCanvas');
 var ctx = canv.getContext("2d");
-window.onLoad({
+window.onload({
   startup(ctx);
 });
 function startup(ctx) {
