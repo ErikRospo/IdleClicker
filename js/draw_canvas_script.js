@@ -25,5 +25,5 @@ function strokeText(x1,y1,text,font="Arial",fontSize="12pt") {
   ctx.strokeText(text,x1,y1);
 };
 function ImgDraw(img,x,y) {
-  
+  ctx.drawImage(img,x,y);
 }
