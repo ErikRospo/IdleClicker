@@ -15,4 +15,12 @@ function circle(ctx,x1,y1,r) {
     ctx.beginPath();
     ctx.arc(x1,y1,r,0,2*Math.PI);
     ctx.stroke();
-}
+};
+function drawText(ctx,x1,y1,text,font="Arial",fontSize="12pt") {
+  ctx.font=fontSize+" "+font;
+  ctx.fillText(text,x1,y1);
+};
+function strokeText(ctx,x1,y1,text,font="Arial",fontSize="12pt") {
+  ctx.font=fontSize+" "+font;
+  ctx.strokeText(text,x1,y1);
+};
