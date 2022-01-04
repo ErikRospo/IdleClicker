@@ -3,3 +3,6 @@
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
 };
+.GameCanvas {
+    border: 2px solid black;
+}
