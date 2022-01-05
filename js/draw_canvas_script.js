@@ -4,7 +4,8 @@ window.onload({
   startup();
 });
 function startup() {
-
+  line(0,0,50,50);
+  
 };
 function line(x1,y1,x2,y2) {
   ctx.moveTo(x1,y1);
